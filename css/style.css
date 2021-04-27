@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+html
+{
+    font-size: 10px;
+    font-family: Open Sans;
+}
+section:not(:first-child) {
+    margin-top: 10rem;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    color: inherit;
+}
+.logo {
+    width: 15rem;
+}
+
+
+
+/* footer  */
+#footer .logo {
+    margin-top: -8rem;
+}
+.footer-navlink span, .footer-address span {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 27px;
+    color: #265BC5;
+}
+
+.footer-navlink ul {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #505050;
+}
+.footer-info p, .footer-address p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #505050;
+}
+.footer-info span {
+    font-weight: 800;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #303030;
+    margin: 3rem 0 1rem 0;
+}
