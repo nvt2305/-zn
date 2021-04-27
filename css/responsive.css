@@ -1,5 +1,10 @@
 @media (max-width:576px) {
     html {
-        font-size: 2vw;
+        font-size: 8px;
+    }
+}
+@media (max-width:420px) {
+    html {
+        font-size: 4vw;
     }
 }
