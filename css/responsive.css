@@ -3,6 +3,8 @@
         font-size: 8px;
     }
 }
+
+
 @media (max-width:420px) {
     html {
         font-size: 3vw;
